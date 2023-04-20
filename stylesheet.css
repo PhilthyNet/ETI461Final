@@ -1,0 +1,99 @@
+/* Set default styles for the entire page */
+* {
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: rgb(204, 32, 32);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Style the main content section */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .property-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .property-card img {
+    max-width: 100%;
+  }
+  
+  .property-card h2 {
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  .property-card p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+  }
+  
+  .property-card button {
+    background-color: #222;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .property-card button:hover {
+    background-color: rgb(214, 36, 36);
+  }
+  
+  /* Style the footer section */
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  select {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: none;
+  }
+  
+  option {
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
